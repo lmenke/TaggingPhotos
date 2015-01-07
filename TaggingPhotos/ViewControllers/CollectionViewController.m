@@ -120,7 +120,7 @@ static NSString * const reuseIdentifier = @"cell";
 {
     int largeImageSize = 300;
     int smallImageSize = 145;
-    if (indexPath.row % 2 == 0)
+    if (indexPath.row % 3 == 0)
     {
         return CGSizeMake(largeImageSize, largeImageSize);
     }
